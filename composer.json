@@ -1,0 +1,30 @@
+{
+    "name": "plateena/demo",
+    "description": "Demo for debug",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "plateena",
+            "email": "plateena711@gmail.com"
+        }
+    ],
+    "require-dev": {
+        "orchestra/testbench": "^6.12",
+        "phpunit/phpunit": "^9.5"
+    },
+    "require": {
+        "spatie/laravel-query-builder": "^3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "Plateena\\Demo\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Plateena\\Demo\\Tests\\": "tests",
+            "Plateena\\Demo\\Database\\Factories\\": "database/factories"
+        }
+    }
+}
